@@ -1,14 +1,14 @@
 # 🌦️ Weather App
 
-A **GUI-based Weather App** developed in **Python** that provides real-time weather information using a weather API. Users can search for any city around the world and instantly view current weather conditions through a simple and interactive desktop application.
+A **console-based Weather App** developed in **Python** that retrieves real-time weather information using a weather API. Users can search for any city worldwide and instantly view current weather details directly in the terminal.
 
 ---
 
 ## 📖 Project Overview
 
-The Weather App is a desktop application that fetches live weather information using an external weather API. It allows users to search for any city and displays essential weather details such as temperature, humidity, wind speed, and weather conditions in an easy-to-use graphical interface.
+The Weather App is a Python console application that fetches live weather data using an external weather API. Users simply enter the name of a city, and the application displays the latest weather information, including temperature, humidity, wind speed, and weather conditions.
 
-This project demonstrates API integration, GUI development, JSON data handling, and Python programming.
+This project demonstrates API integration, HTTP requests, JSON data handling, and Python programming.
 
 ---
 
@@ -17,30 +17,28 @@ This project demonstrates API integration, GUI development, JSON data handling, 
 - **Project:** Weather App
 - **Language:** Python
 - **Project Type:** Personal Project
-- **Category:** API Integration & Desktop Application
+- **Category:** API Integration
 
 ---
 
 ## ✨ Features
 
 - 🌍 Search weather by city name
-- 🌡️ Real-time temperature display
-- 💧 Humidity information
-- 🌬️ Wind speed details
-- ☁️ Weather condition and description
-- 🌅 Sunrise and sunset information *(if implemented)*
-- 🖥️ Interactive Graphical User Interface (GUI)
-- ⚡ Live weather updates using API
+- 🌡️ Display current temperature
+- 💧 Show humidity
+- 🌬️ Display wind speed
+- ☁️ Show weather condition and description
+- ⚡ Retrieve live weather data using an API
+- 💻 Simple console-based interface
 
 ---
 
 ## 🛠️ Technologies Used
 
 - Python
-- Weather API (OpenWeatherMap or another weather service)
 - Requests
 - JSON
-- Tkinter / CustomTkinter / PyQt *(Replace with the GUI framework you used)*
+- Weather API (OpenWeatherMap or another weather service)
 
 ---
 
@@ -49,8 +47,6 @@ This project demonstrates API integration, GUI development, JSON data handling, 
 ```text
 Weather-App/
 │
-├── assets/
-├── src/
 ├── main.py
 ├── requirements.txt
 ├── README.md
@@ -75,7 +71,7 @@ pip install -r requirements.txt
 
 ### Add Your API Key
 
-Create or update your configuration file and add your Weather API key.
+Configure your API key in the project.
 
 Example:
 
@@ -93,12 +89,11 @@ python main.py
 
 ## 💡 Workflow
 
-1. Launch the application.
+1. Run the application.
 2. Enter the name of a city.
-3. Click the search button.
-4. The application sends a request to the weather API.
-5. Live weather information is displayed in the GUI.
-6. Search for another city at any time.
+3. The application sends a request to the weather API.
+4. Live weather information is displayed in the terminal.
+5. Search for another city if needed.
 
 ---
 
@@ -108,11 +103,10 @@ This project helped me improve my understanding of:
 
 - Python Programming
 - REST API Integration
-- JSON Data Processing
-- GUI Development
 - HTTP Requests
+- JSON Data Processing
 - Error Handling
-- Desktop Application Development
+- Console Application Development
 
 ---
 
@@ -120,12 +114,11 @@ This project helped me improve my understanding of:
 
 - 7-day weather forecast
 - Hourly weather updates
-- GPS-based location detection
-- Weather maps
-- Air Quality Index (AQI)
-- Dark/Light mode
-- Weather alerts
+- Weather icons
+- Graphical User Interface (GUI)
+- Location-based weather
 - Save favorite cities
+- Voice search
 
 ---
 
